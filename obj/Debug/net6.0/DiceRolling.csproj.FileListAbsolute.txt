@@ -1,0 +1,14 @@
+C:\Users\twoye\source\repos\actonlauren\DiceRolling\DiceRolling\bin\Debug\net6.0\DiceRolling.exe
+C:\Users\twoye\source\repos\actonlauren\DiceRolling\DiceRolling\bin\Debug\net6.0\DiceRolling.deps.json
+C:\Users\twoye\source\repos\actonlauren\DiceRolling\DiceRolling\bin\Debug\net6.0\DiceRolling.runtimeconfig.json
+C:\Users\twoye\source\repos\actonlauren\DiceRolling\DiceRolling\bin\Debug\net6.0\DiceRolling.dll
+C:\Users\twoye\source\repos\actonlauren\DiceRolling\DiceRolling\bin\Debug\net6.0\DiceRolling.pdb
+C:\Users\twoye\source\repos\actonlauren\DiceRolling\DiceRolling\obj\Debug\net6.0\DiceRolling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\twoye\source\repos\actonlauren\DiceRolling\DiceRolling\obj\Debug\net6.0\DiceRolling.AssemblyInfoInputs.cache
+C:\Users\twoye\source\repos\actonlauren\DiceRolling\DiceRolling\obj\Debug\net6.0\DiceRolling.AssemblyInfo.cs
+C:\Users\twoye\source\repos\actonlauren\DiceRolling\DiceRolling\obj\Debug\net6.0\DiceRolling.csproj.CoreCompileInputs.cache
+C:\Users\twoye\source\repos\actonlauren\DiceRolling\DiceRolling\obj\Debug\net6.0\DiceRolling.dll
+C:\Users\twoye\source\repos\actonlauren\DiceRolling\DiceRolling\obj\Debug\net6.0\refint\DiceRolling.dll
+C:\Users\twoye\source\repos\actonlauren\DiceRolling\DiceRolling\obj\Debug\net6.0\DiceRolling.pdb
+C:\Users\twoye\source\repos\actonlauren\DiceRolling\DiceRolling\obj\Debug\net6.0\DiceRolling.genruntimeconfig.cache
+C:\Users\twoye\source\repos\actonlauren\DiceRolling\DiceRolling\obj\Debug\net6.0\ref\DiceRolling.dll
