@@ -14,7 +14,7 @@
                 do
                 {
                     askForNumberAgain = false;
-                    Console.Write("Number of sides for a pair of dice?: ");
+                    Console.Write("Welcome to Dice Roller! How many sides would you like your dice to have?: ");
                     usersDie = Console.ReadLine();
                     if (!int.TryParse(usersDie, out dieNumber))
                     {
@@ -32,7 +32,7 @@
                 Console.WriteLine(GetWinorLoss(randomNumberOne, randomNumberTwo));
 
                 playAgain = false;
-                Console.WriteLine("Would you like to roll again? Y/N: ");
+                Console.Write("Would you like to roll again? Y/N: ");
                 string userPlayAgain = Console.ReadLine();
                 if (userPlayAgain == "y" || userPlayAgain == "Y")
                 {
@@ -52,32 +52,40 @@
         {
             if (dieValueOne == 1 && dieValueTwo == 1)
             {
-                return "Snake Eyes";
+                return "Your roll: Snake Eyes";
             }
             if (dieValueOne == 1 && dieValueTwo == 2 || dieValueOne == 2 && dieValueTwo == 1)
             {
-                return "Ace Deuce";
+                return "Your roll: Ace Deuce";
+            }
+            if (dieValueOne == 2 && dieValueTwo == 2)
+            {
+                return "Your roll: Ballerina";
+            }
+            if (dieValueOne == 4 && dieValueTwo == 3 || dieValueOne == 3 && dieValueTwo == 4)
+            {
+                return "Your roll: Big Red";
             }
             if (dieValueOne == 6 && dieValueTwo == 6)
             {
-                return "Box Cars";
+                return "Your roll: Box Cars";
             }
             else
-                return "No Match";
+                return ($"Your roll {dieValueOne} : {dieValueTwo} was not a match.");
         }
 
-        static string GetWinorLoss(int NumberOne, int NumberTwo)
+        static string GetWinorLoss(int numberOne, int numberTwo)
         {
-            if (NumberOne + NumberTwo == 7 || NumberOne + NumberTwo == 11)
+            if (numberOne + numberTwo == 7 || numberOne + numberTwo == 11)
             {
-                return "Win";
+                return "You Win!";
             }
-            if (NumberOne + NumberTwo == 2 || NumberOne + NumberTwo == 3 || NumberOne + NumberTwo == 12)
+            if (numberOne + numberTwo == 2 || numberOne + numberTwo == 3 || numberOne + numberTwo == 12)
             {
-                return "Craps";
+                return "You rolled a Craps";
             }
             else
-                return "No Match";
+                return ($"Your roll was {numberOne} : {numberTwo}, try again.");
         }
     }
     
